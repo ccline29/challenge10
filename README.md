@@ -42,9 +42,10 @@ Click the link below to watch a video demonstration:
 
 
 ## Tests:
-Install Jest
-Run npm test
+1.With Jest Installed 
+2.Run npm test in your directory
 
+<img width="369" alt="Screenshot 2023-01-31 at 6 39 35 PM" src="https://user-images.githubusercontent.com/115193125/215916803-f1c137b6-0f3d-4db6-a88a-2bb20a4438cc.png">
 
 
 ## License
