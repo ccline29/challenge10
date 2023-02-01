@@ -19,6 +19,8 @@ Build a Team Profile Generator that uses Node.js command line application that w
 4. The HTML file will be stored in a folder. When user opens the HTML file, it will display a carded team roster with contact information based on the input.
 
 Screenshot photo of the HTML file:
+
+
  
 
 ## Demo:
