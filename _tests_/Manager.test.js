@@ -1,12 +1,11 @@
-const Manager = require('../lib/Manager')
+const Manager = require('../lib/Manager');
 
-describe('Manager Class', () => {
-    describe('Initialization', () => {
-        it('Should create an object with an id and name', () => {
-            const manager = new Manager(123, 'Tim')
-
-            expect(manager.id).toEqual(123);
-            expect(manager.name).toEqual('Tim');
-        });
-    });
+test('creates a Manager object', () => {
+    const manager = new Manager('Chris', 1, 'chris@gmail.com', 29);
+    expect(manager.officeNumber).toEqual(expect.any(Number));
 });
+
+test('Gets role of employee', () => {
+    const manager = new Manager('Chris', 1, 'chris@gmail.com');
+    expect(manager.getRole()).toEqual("Manager");
+}); 
